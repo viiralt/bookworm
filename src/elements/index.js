@@ -13,14 +13,14 @@ export const Wrapper = styled.div`
   flex-direction: column;
 `;
 
-export const Heading = styled.h3`
+export const Heading = styled.h1`
   font-family: Montserrat, sans-serif;
-  font-weight: 300;
-  font-size: 1.4rem;
+  font-weight: 700;
+  font-size: 2.1rem;
 `;
 
 export const Text = styled.p`
   font-family: Cardo, sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
+  font-weight: 400;
+  font-size: 1.1rem;
 `;
