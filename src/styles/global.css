@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.1;
+  background-size: cover;
+  letter-spacing: 0.02rem;
+  background-color: #fafafa;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+input::placeholder {
+  color: #bec7d5;
+}
+
+button:focus {
+  outline: 0;
+}
