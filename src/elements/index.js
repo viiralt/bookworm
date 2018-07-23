@@ -19,8 +19,21 @@ export const Heading = styled.h1`
   font-size: 2.1rem;
 `;
 
+export const HeadingSmall = styled.h1`
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+`;
+
 export const Text = styled.p`
   font-family: Cardo, sans-serif;
   font-weight: 400;
   font-size: 1.1rem;
+`;
+
+export const Image = styled.img`
+  flex: 1;
+  width: null;
+  height: null;
+  resize-mode: cover;
 `;
