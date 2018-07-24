@@ -1,7 +1,7 @@
 import React from 'react';
 
-import BookDetail from './BookDetail';
+import BookListItem from './BookListItem';
 
-const BookList = ({ books }) => books.map(book => <BookDetail book={book} key={book.id} />);
+const BookList = ({ books }) => books.map(book => <BookListItem book={book} key={book.id} />);
 
 export default BookList;

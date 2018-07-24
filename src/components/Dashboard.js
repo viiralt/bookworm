@@ -12,7 +12,7 @@ class Dashboard extends Component {
   }
 
   render() {
-    const { isFetchingBooks } = this.props;
+    const { isFetchingBooks, books } = this.props;
 
     if (isFetchingBooks) {
       return <p>Loading...</p>;
@@ -21,6 +21,7 @@ class Dashboard extends Component {
       <Wrapper>
         <Heading>Welcome to Bookworm!</Heading>
         <Text>Hello world!</Text>
+        <BookList books={books} />
       </Wrapper>
     );
   }

@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 
 import { Wrapper, Text, HeadingSmall, Image as BookImage } from '../elements';
 
-const BookDetail = ({ book }) => (
+const BookListItem = ({ book }) => (
   <Wrapper>
     <Link
       to={{
-        pathname: `/${book.name}`,
+        pathname: `/${book.title}`,
         state: {
           book,
         },
@@ -16,8 +16,8 @@ const BookDetail = ({ book }) => (
     >
       <BookWrapper>
         <BookContent>
-          <HeadingSmall>Book title</HeadingSmall>
-          <Text>Author</Text>
+          <HeadingSmall>{book.title}</HeadingSmall>
+          <Text>{book.author}</Text>
         </BookContent>
         <BookImage />
       </BookWrapper>
@@ -28,3 +28,5 @@ const BookDetail = ({ book }) => (
 const BookWrapper = styled.div``;
 
 const BookContent = styled.div``;
+
+export default BookListItem;
