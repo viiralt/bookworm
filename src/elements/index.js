@@ -22,7 +22,12 @@ export const HeadingSmall = styled.h1`
 export const Text = styled.p`
   font-family: Cardo, sans-serif;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+`;
+
+export const Cover = styled.img`
+  width: 20rem;
+  height: 30rem;
 `;
 
 export const CoverSmall = styled.img`

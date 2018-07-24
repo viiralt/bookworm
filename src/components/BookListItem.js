@@ -31,7 +31,6 @@ const ContentContainer = styled.div`
 
 const CoverContainer = styled.div`
   display: flex;
-
   margin: 1rem;
 `;
 
