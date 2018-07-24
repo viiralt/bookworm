@@ -2,10 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-import { Wrapper, Text, HeadingSmall, Image as BookImage } from '../elements';
+import { Text, HeadingSmall, CoverSmall } from '../elements';
 
 const BookListItem = ({ book }) => (
-  <Wrapper>
+  <ContentContainer>
     <Link
       to={{
         pathname: `/${book.title}`,
@@ -14,19 +14,25 @@ const BookListItem = ({ book }) => (
         },
       }}
     >
-      <BookWrapper>
-        <BookContent>
-          <HeadingSmall>{book.title}</HeadingSmall>
-          <Text>{book.author}</Text>
-        </BookContent>
-        <BookImage />
-      </BookWrapper>
+      <CoverContainer>
+        <CoverSmall src={book.image} />
+      </CoverContainer>
     </Link>
-  </Wrapper>
+  </ContentContainer>
 );
 
-const BookWrapper = styled.div``;
+const ContentContainer = styled.div`
+  background-color: papayawhip;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+`;
 
-const BookContent = styled.div``;
+const CoverContainer = styled.div`
+  display: flex;
+
+  margin: 1rem;
+`;
 
 export default BookListItem;

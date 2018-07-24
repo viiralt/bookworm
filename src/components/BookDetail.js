@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import { Wrapper, HeadingSmall, Text } from '../elements';
+import { HeadingSmall, Text } from '../elements';
 
 export default class BookDetail extends Component {
   render() {
@@ -12,3 +12,5 @@ export default class BookDetail extends Component {
     );
   }
 }
+
+const Wrapper = styled.div``;
