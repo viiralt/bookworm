@@ -1,7 +1,7 @@
 import { all } from 'redux-saga/effects';
 import { fetchBooksWatcher } from './fetchBooksSaga';
-/* import { createBookWatcher } from './createBookSaga'; */
+import { createBookWatcher } from './createBookSaga';
 
 export default function* rootSaga() {
-  yield all([fetchBooksWatcher()]);
+  yield all([fetchBooksWatcher(), createBookWatcher()]);
 }

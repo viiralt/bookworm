@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import BookDetail from './components/BookDetail';
+import BookCreate from './components/BookCreate';
 import Dashboard from './components/Dashboard';
 import ErrorPath from './components/ErrorPath';
 
@@ -13,7 +14,8 @@ class App extends Component {
       <AppWrapper>
         <Router>
           <Switch>
-            <Route path="/" component={Dashboard} exact />
+            <Route path="/" exact component={Dashboard} />
+            <Route path="/create" exact component={BookCreate} />
             <Route path="/:book" component={BookDetail} />
             <Route component={ErrorPath} />
           </Switch>

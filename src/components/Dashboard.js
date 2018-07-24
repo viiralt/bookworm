@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-import { Heading, Text } from '../elements';
 import { fetchBooks } from '../store/actions/actionCreators';
+import { Heading, Text, Button } from '../elements';
 import BookList from './BookList';
 
 class Dashboard extends Component {
@@ -18,11 +19,20 @@ class Dashboard extends Component {
     if (isFetchingBooks) {
       return <p>Loading...</p>;
     }
+
     return (
       <Wrapper>
         <DashWrapper>
           <Heading>Welcome to Bookworm!</Heading>
-          <Text>Hello world!</Text>
+          <Text>Revel in some of the most renowned stories ever to have been penned</Text>
+          <Text>..or add your very own!</Text>
+          <Link
+            to={{
+              pathname: `/create`,
+            }}
+          >
+            <Button>Add a book</Button>
+          </Link>
         </DashWrapper>
         <BookListWrapper>
           <BookList books={books} />
@@ -41,6 +51,7 @@ export default connect(mapStateToProps, { fetchBooks })(Dashboard);
 
 const Wrapper = styled.div`
   flex: 1;
+  margin-top: 4rem;
 `;
 const DashWrapper = styled.div`
   width: 100%;
@@ -55,5 +66,4 @@ const BookListWrapper = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  background-color: pink;
 `;
