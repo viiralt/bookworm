@@ -1,0 +1,176 @@
+[{
+    "id": 1,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51A685AMYoL.jpg",
+    "title": "In Search of Lost Time",
+    "author": "Marcel Proust",
+    "price": 6.43
+  },
+  {
+    "id": 2,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41u9Jedk-mL.jpg",
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "price": 15.99
+  },
+  {
+    "id": 3,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51wTLf4JVwL.jpg",
+    "title": "Ulysses",
+    "author": "James Joyce",
+    "price": 4.31
+  },
+  {
+    "id": 4,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51vv75oglyL.jpg",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "price": 8.55
+  },
+  {
+    "id": 5,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41h1CVFjjdL.jpg",
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "price": 7.80
+  },
+  {
+    "id": 6,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51dhOwUuI3L.jpg",
+    "title": "Hamlet",
+    "author": "William Shakespeare",
+    "price": 14.60
+  },
+  {
+    "id": 7,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51J1nb00FLL.jpg",
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "price": 5.30
+  },
+  {
+    "id": 8,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51FR8mSgqoL.jpg",
+    "title": "The Odyssey",
+    "author": "Homer",
+    "price": 6.88
+  },
+  {
+    "id": 9,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51tkcSAhSDL.jpg",
+    "title": "One Hunderd Years of Solitude",
+    "author": "Garcia Marquez",
+    "price": 15.20
+  },
+  {
+    "id": 10,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61Ml8RHqxrL.jpg",
+    "title": "The Divine Comedy",
+    "author": "Dante Alighieri",
+    "price": 9.99
+  },
+  {
+    "id": 11,
+    "image": "http://ecx.images-amazon.com/images/I/51c4Gb6Uo0L.jpg",
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoyevsky",
+    "price": 6
+  },
+  {
+    "id": 12,
+    "image": "http://ecx.images-amazon.com/images/I/51o5dnjk07L.jpg",
+    "title": "Madame Bovary",
+    "author": "Madame Bovary",
+    "price": 3.99
+  },
+  {
+    "id": 13,
+    "image": "http://ecx.images-amazon.com/images/I/51Ht1M-GPXL.jpg",
+    "title": "The Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "price": 6.95
+  },
+  {
+    "id": 14,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41beWU7rn8L.jpg",
+    "title": "Lolita",
+    "author": "Vladimir Nabokov",
+    "price": 4.88
+  },
+  {
+    "id": 15,
+    "image": "http://ecx.images-amazon.com/images/I/512j6byhjvL.jpg",
+    "title": "The Iliad",
+    "author": "Homer",
+    "price": 7.25
+  },
+  {
+    "id": 16,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51zZH9paouL.jpg",
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoyevsky",
+    "price": 9.99
+  },
+  {
+    "id": 17,
+    "image": "http://ecx.images-amazon.com/images/I/41h9Pz2qeIL.jpg",
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "price": 14.99
+  },
+  {
+    "id": 18,
+    "image": "http://ecx.images-amazon.com/images/I/51-6ApKTHaL.jpg",
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "price": 4.29
+  },
+  {
+    "id": 19,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41i3FJ7C8HL.jpg",
+    "title": "Pride and Predjudice",
+    "author": "Jane Austen",
+    "price": 4.88
+  },
+  {
+    "id": 20,
+    "image": "http://ecx.images-amazon.com/images/I/41gTM5%2BdbfL.jpg",
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "price": 6.39
+  },
+  {
+    "id": 21,
+    "image": "http://ecx.images-amazon.com/images/I/51--Odn0keL.jpg",
+    "title": "The Sound and the Fury",
+    "author": "William Faulkner",
+    "price": 15.99
+  },
+  {
+    "id": 22,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/512RH0o4H2L.jpg",
+    "title": "To the Lighthouse",
+    "author": "Virginia Woolf",
+    "price": 12.99
+  },
+  {
+    "id": 23,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61acwheIBoL.jpg",
+    "title": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "price": 3.99
+  },
+  {
+    "id": 24,
+    "image": "http://ecx.images-amazon.com/images/I/51vPf2CfSEL.jpg",
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "price": 12.90
+  },
+  {
+    "id": 25,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41HZA5S2jfL.jpg",
+    "title": "Nineteen eighty four",
+    "author": "George Orwell",
+    "price": 4.50
+  }
+]
