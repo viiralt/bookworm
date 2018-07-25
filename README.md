@@ -15,12 +15,12 @@ Bookworm is a web app for discovering some of the greatest stories ever told.
 1. Fork the repo
 
 ```
-https://bitbucket.org/viiralt/bookworm/
+https://github.com/viiralt/bookworm/
 ```
 2. Clone the repo locally. In a terminal window, run: 
 
 ```
-git clone https://bitbucket.org/[your-github-profile-name]/bookworm.git
+git clone https://github.com/[your-github-profile-name]/bookworm.git
 ```
 3. Install dependencies 
 
