@@ -7,39 +7,64 @@ import { createBook } from '../store/actions/actionCreators';
 
 class BookCreate extends Component {
   state = {
-    book: '',
+    id: '',
+    image: '',
+    title: '',
+    author: '',
+    price: '',
   };
 
-  handleInputChange = event => {
-    this.setState({ book: event.target.value });
+  onChange = event => {
+    this.setState({ [event.target.name]: event.target.value });
   };
 
-  handleFormSubmit = event => {
+  onSubmit = event => {
     event.preventDefault();
   };
 
-  handleButtonClick = book => {
+  handleButtonClick = () => {
+    const { id, image, title, author, price } = this.state;
     const { createBook } = this.props;
-    const { createdBook } = this.state;
-    createBook(book);
+    createBook(this.state);
   };
 
   render() {
+    const { id, image, title, author, price } = this.state;
     return (
       <FormContainer>
-        <Form>
+        <Form onSubmit={this.onSubmit}>
           <HeadingSmall>Id</HeadingSmall>
-          <Input placeholder="psst...write 26" />
+          <Input
+            name="id"
+            value={id}
+            type="text"
+            onChange={this.onChange}
+            placeholder="psst...write '26'"
+          />
           <HeadingSmall>Image</HeadingSmall>
-          <Input placeholder="please enter image url" />
+          <Input
+            name="image"
+            value={image}
+            type="text"
+            onChange={this.onChange}
+            placeholder="please enter image url"
+          />
           <HeadingSmall>Title</HeadingSmall>
-          <Input />
+          <Input name="title" value={title} type="text" onChange={this.onChange} />
           <HeadingSmall>Author</HeadingSmall>
-          <Input />
+          <Input name="author" value={author} type="text" onChange={this.onChange} />
           <HeadingSmall>Price</HeadingSmall>
-          <Input placeholder="e.g. €4.99" />
+          <Input
+            name="price"
+            value={price}
+            type="text"
+            onChange={this.onChange}
+            placeholder="e.g. 4.99"
+          />
         </Form>
-        <Button>Submit</Button>
+        <Button onClick={this.handleButtonClick} type="submit">
+          Submit
+        </Button>
       </FormContainer>
     );
   }
@@ -56,7 +81,7 @@ const FormContainer = styled.div`
   width: 60%;
   height: 85vh;
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 3rem;
   border-radius: 6px;
   text-align: center;
   align-items: center;

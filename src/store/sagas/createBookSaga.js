@@ -6,7 +6,7 @@ import Api from '../../Api';
 
 function* createBook() {
   try {
-    const response = yield call(axios.get, Api);
+    const response = yield call(axios.post, Api);
     yield put({
       method: 'POST',
       type: ActionTypes.CREATE_BOOK_SUCCEEDED,
