@@ -13,6 +13,7 @@ body {
   line-height: 1.1;
   background-size: cover;
   letter-spacing: 0.02rem;
+  border-style: none;
   background-color: #fafafa;
 }
 
@@ -33,6 +34,11 @@ h3 {
 
 input::placeholder {
   color: #bec7d5;
+  font-family: Cardo, sans serif;
+}
+
+input:focus {
+  outline: 0;
 }
 
 button:focus {
