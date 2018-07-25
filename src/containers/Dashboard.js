@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 import { fetchBooks } from '../store/actions/actionCreators';
 import { Heading, Text, Button } from '../elements';
-import BookList from './BookList';
+import BookList from '../components/BookList';
 
 class Dashboard extends Component {
   componentDidMount() {

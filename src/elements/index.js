@@ -49,6 +49,7 @@ export const Button = styled.button`
   font-weight: 400;
   margin-bottom: 2rem;
   border-radius: 0.4rem;
+  background-color: #fff;
   transition: box-shadow 0.3s;
   font-family: Cardo, sans-serif;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.08);

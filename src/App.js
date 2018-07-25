@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import BookDetail from './components/BookDetail';
-import BookCreate from './components/BookCreate';
-import Dashboard from './components/Dashboard';
+import BookDetail from './containers/BookDetail';
+import BookCreate from './containers/BookCreate';
+import Dashboard from './containers/Dashboard';
 import ErrorPath from './components/ErrorPath';
 
 import { AppWrapper } from './elements';
