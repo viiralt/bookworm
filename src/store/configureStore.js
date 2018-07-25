@@ -2,7 +2,7 @@ import { createStore, applyMiddleware, compose } from 'redux';
 import createSagaMiddleware from 'redux-saga';
 
 import bookReducer from './reducers/bookReducer';
-import rootSaga from './sagas';
+import fetchBooksSaga from './sagas';
 
 const sagaMiddleware = createSagaMiddleware();
 
@@ -12,6 +12,6 @@ const enhancers = compose(
 
 const store = createStore(bookReducer, enhancers, applyMiddleware(sagaMiddleware));
 
-sagaMiddleware.run(rootSaga);
+sagaMiddleware.run(fetchBooksSaga);
 
 export default store;
